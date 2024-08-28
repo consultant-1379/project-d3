@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0", maximum-scale="1.0", user-scalable="1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <h1>ChartJS Line Chart with JSON Data API</h1>
+            <label for="job-names">Choose a job:</label>
+                <select name="job-names" id="job-names">
+                    <option value="eric-oss-ran-topology-adapter_Publish">Topology adapter publish</option>
+                    <option value="eric-oss-ran-topology_adapter_PreCodeReview">Topology adapter PreCodeReview</option>
+                    <option value="ENM-Adapter_release">ENM Adapter release</option>
+                    <option value="ENM-Adapter_PreCodeReview">ENM Adapter PreCodeReview</option>
+                    <option value="ENM-Stub_release">ENM Stub release</option>
+                    <option value="ENM-Stub_PreCodeReview">ENM Stub PreCodeReview</option>
+                    <option value="ENM-Adapter_PreCodeReview">ENM Adapter PreCodeReview</option>
+                    <option value="eric-oss-enm-discovery-adapter_PreCodeReview">discovery adapter PreCodeReview</option>
+                    <option value="eric-oss-enm-model-adapter_Publish">model adapter Publish</option>
+                    <option value="eric-oss-enm-model-adapter_PreCodeReview">model adapter PreCodeReview</option>
+                    <option value="eric-oss-enm-notification-adapter_Publish">notification adapter Publish</option>
+                    <option value="eric-oss-enm-notification-adapter_PreCodeReview">notification adapter PreCodeReview</option>s
+                </select>
+                
+            <label for="time-range">Choose the time range:</label>
+                <select name="time-range" id="time-range">
+                    <option value="All time">All time</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            <input id="updatebtm" type="button" value="Update" onclick="doFunction()"/>
+            
+            
+                <div class="mycanvas">
+                    <canvas id="canvas"></canvas>
+                </div>
+            
+        </div>
+    </div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

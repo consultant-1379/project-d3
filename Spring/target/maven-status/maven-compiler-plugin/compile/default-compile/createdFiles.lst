@@ -1,0 +1,10 @@
+com/example/message/JenkinsData.class
+com/example/message/TableData.class
+com/example/message/AppController.class
+com/example/message/DataController.class
+com/example/message/TableRepository.class
+com/example/message/JenkinsRepository.class
+com/example/message/Application.class
+com/example/message/BuildData.class
+com/example/message/DataService.class
+com/example/message/DemoData.class

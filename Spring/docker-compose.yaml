@@ -1,0 +1,15 @@
+version: '3'
+ 
+services:
+  db:
+    image: kimjintonic/mysql
+    container_name: throughputDB
+    environment:
+      MYSQL_ROOT_PASSWORD: mysqldb
+      MYSQL_DATABASE: throughputDB
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+volumes:
+  dbdata:
